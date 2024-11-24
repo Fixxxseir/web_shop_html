@@ -1,10 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-
+<div class="row">
+    <div class="col-2">
+        <div class="row w-100">
+            <div class="container border-success text-bg-dark vh-100 d-inline-block"
+                 style="position: fixed; width: 16.67%; height: 100%;">
+                <div class="card text-bg-dark mb-3 vh-100" style="max-width: 18rem;">
+                <div class="card-header bg-transparent border-success">Меню</div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <button class="btn btn-dark w-100 text-start" type="button">Главная</button>
+                            <button type="button" class="btn btn-dark w-100 text-start">Категории</button>
+                            <button type="button" class="btn btn-dark w-100 text-start">Заказы</button>
+                            <button type="button" class="btn btn-dark w-100 text-start">Контакты</button>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-transparent border-success">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">Пользователь</button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Профиль</a></li>
+                                <li><a class="dropdown-item" href="#">Выход</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-10">
+        <div class="row mt-5">
+            <div class="col-12">
+                <h1 class="text-center">Каталог</h1>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-1"></div>
+            <div class="col-5">
+                 <div class="card h-100 w-75 ">
+                      <img src="../img/image_1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">"Это енот, купите енота".</p>
+                      </div>
+                      <div class="card-footer">
+                          <div class="btn-group" role="group" aria-label="Basic outlined example">
+                              <button type="button" class="btn btn-outline-primary">View</button>
+                              <button type="button" class="btn btn-outline-primary">Edit</button>
+                          </div>
+                        <small class="text-body-secondary">1 second ago</small>
+                      </div>
+                    </div>
+            </div>
+            <div class="col-5">
+                 <div class="card h-100 w-75">
+                      <img src="../img/image_1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">Это тоже енот, купите енота.</p>
+                      </div>
+                      <div class="card-footer">
+                          <div class="btn-group" role="group" aria-label="Basic outlined example">
+                              <button type="button" class="btn btn-outline-primary">View</button>
+                              <button type="button" class="btn btn-outline-primary">Edit</button>
+                          </div>
+                        <small class="text-body-secondary">2 second ago</small>
+                      </div>
+                    </div>
+                <div class="col-1"></div>
+            </div>
+        <div class="row mt-5">
+            <div class="col-1"></div>
+            <div class="col-5">
+                 <div class="card h-100 w-75">
+                      <img src="../img/image_1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">И это тоже енот, купите енота.</p>
+                      </div>
+                      <div class="card-footer">
+                          <div class="btn-group" role="group" aria-label="Basic outlined example">
+                              <button type="button" class="btn btn-outline-primary">View</button>
+                              <button type="button" class="btn btn-outline-primary">Edit</button>
+                          </div>
+                        <small class="text-body-secondary">3 second ago</small>
+                      </div>
+                    </div>
+            </div>
+            <div class="col-5">
+                 <div class="card h-100 w-75">
+                      <img src="../img/image_1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">И это тоже енот, купите енота.</p>
+                      </div>
+                      <div class="card-footer">
+                          <div class="btn-group" role="group" aria-label="Basic outlined example">
+                              <button type="button" class="btn btn-outline-primary">View</button>
+                              <button type="button" class="btn btn-outline-primary">Edit</button>
+                          </div>
+                        <small class="text-body-secondary">4 second ago</small>
+                      </div>
+                    </div>
+            </div>
+            <div class="col-1"></div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
